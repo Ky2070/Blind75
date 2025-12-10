@@ -1,0 +1,11 @@
+//
+// Created by Administrator on 04/12/2025.
+//
+
+#ifndef LEETCODE_LONGESTSUBSTRINGWITHOUTREPEATING_H
+#define LEETCODE_LONGESTSUBSTRINGWITHOUTREPEATING_H
+#include <string>
+
+int lengthOfLongestSubstring(std::string s);
+
+#endif //LEETCODE_LONGESTSUBSTRINGWITHOUTREPEATING_H
