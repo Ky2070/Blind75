@@ -1,10 +1,12 @@
+#include <algorithm>
 #include <iostream>
 
 #include "CloneGraph.h"
 #include "TwoSum.h"
 #include "LongestSubstringWithoutRepeating.h"
 #include "LongestPalindromicSubstring.h"
-
+#include "PalindromicSubstring.h"
+#include "ContainerWithMostWater.h"
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
     // TIP Press <shortcut actionId="RenameElement"/> when your caret is at the <b>lang</b> variable name to see how CLion can help you rename it.
@@ -49,6 +51,15 @@ int main() {
     std::cout<<"Cloned graph"<<std::endl;
     printGraph(clone);
 
-    return 0;
+    std::cout <<"=====================================" <<std::endl;
+    std::cout<<"Leetcode 647: Palindromic Substring" <<std::endl;
+    std::string s1 = "ababca";
+    std::string s2 = "aaa";
+    std::string s3 = "abc";
+    std::cout<<"1.Count palindromic substring: " <<countSubstrings(s1) << std::endl;
+    std::cout<<"2.Count palindromic substring: " <<countSubstrings(s2) << std::endl;
+    std::cout<<"3.Count palindromic substring: " <<countSubstrings(s3) << std::endl;
+    std::vector<int> height = {1,8,6,2,5,4,8,3,7};
+    std::cout<<"Most water of container: " << maxArea(height) << std::endl;
     // TIP See CLion help at <a href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>. Also, you can try interactive lessons for CLion by selecting 'Help | Learn IDE Features' from the main menu.
 }

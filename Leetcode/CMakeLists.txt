@@ -11,4 +11,8 @@ add_executable(Leetcode main.cpp
         LongestPalindromicSubstring.h
         LongestPalindromicSubstring.cpp
         CloneGraph.h
-        CloneGraph.cpp)
+        CloneGraph.cpp
+        PalindromicSubstring.h
+        PalindromicSubstring.cpp
+        ContainerWithMostWater.h
+        ContainerWithMostWater.cpp)
