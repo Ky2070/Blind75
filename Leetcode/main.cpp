@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <string>
 #include <iostream>
 
 #include "CloneGraph.h"
@@ -7,6 +8,7 @@
 #include "LongestPalindromicSubstring.h"
 #include "PalindromicSubstring.h"
 #include "ContainerWithMostWater.h"
+#include "WorkBreak.h"
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
     // TIP Press <shortcut actionId="RenameElement"/> when your caret is at the <b>lang</b> variable name to see how CLion can help you rename it.
@@ -61,5 +63,10 @@ int main() {
     std::cout<<"3.Count palindromic substring: " <<countSubstrings(s3) << std::endl;
     std::vector<int> height = {1,8,6,2,5,4,8,3,7};
     std::cout<<"Most water of container: " << maxArea(height) << std::endl;
+    std::cout <<"=====================================" <<std::endl;
+    std::cout<<"Leetcode 139: Word Break" << std::endl;
+    std::vector<std::string> wordDict = {"cats","dog","sand","and","cat"};
+    std::string test1 = "catsandog";
+    std::cout<<"Test case 1: " << workBreak(test1, wordDict) << std::endl;
     // TIP See CLion help at <a href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>. Also, you can try interactive lessons for CLion by selecting 'Help | Learn IDE Features' from the main menu.
 }

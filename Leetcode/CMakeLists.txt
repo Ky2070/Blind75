@@ -15,4 +15,6 @@ add_executable(Leetcode main.cpp
         PalindromicSubstring.h
         PalindromicSubstring.cpp
         ContainerWithMostWater.h
-        ContainerWithMostWater.cpp)
+        ContainerWithMostWater.cpp
+        WorkBreak.h
+        WorkBreak.cpp)
