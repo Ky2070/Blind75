@@ -17,4 +17,6 @@ add_executable(Leetcode main.cpp
         ContainerWithMostWater.h
         ContainerWithMostWater.cpp
         WorkBreak.h
-        WorkBreak.cpp)
+        WorkBreak.cpp
+        debug/debugWordBreak.cpp
+        debug/debugWorkBreak.h)
