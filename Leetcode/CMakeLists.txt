@@ -21,4 +21,8 @@ add_executable(Leetcode main.cpp
         debug/debugWordBreak.cpp
         debug/debugWorkBreak.h
         LinkedListCycle.h
-        LinkedListCycle.cpp)
+        LinkedListCycle.cpp
+        3Sum.h
+        3Sum.cpp
+        RemoveNthNodeFromEnd.h
+        RemoveNthNodeFromEnd.cpp)
