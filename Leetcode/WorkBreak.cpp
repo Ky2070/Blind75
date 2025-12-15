@@ -13,12 +13,14 @@ bool workBreak(std::string s, std::vector<std::string> &wordDict) {
     dp[0] = true; //string "" can valid
 
     std::unordered_set<std::string> dict(wordDict.begin(), wordDict.end());
-    for (const auto& word : wordDict) {
+    int maxLen = 0;
+    for (const std::string& word : wordDict) {
         std::cout << word << " ";
+        maxLen = std::max(maxLen, (int)word.size());
     }
     std::cout << std::endl;
     for (int i = 1; i <= n; i++) {
-        for (int j = 0; j < i; j++) {
+        for (int j = std::max(0, i - maxLen); j < i; j++) {
             if (dp[j] && dict.count(s.substr(j, i - j))) {
                 dp[i] = true;
                 break;

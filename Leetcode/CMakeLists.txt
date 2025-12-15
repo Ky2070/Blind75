@@ -19,4 +19,6 @@ add_executable(Leetcode main.cpp
         WorkBreak.h
         WorkBreak.cpp
         debug/debugWordBreak.cpp
-        debug/debugWorkBreak.h)
+        debug/debugWorkBreak.h
+        LinkedListCycle.h
+        LinkedListCycle.cpp)
