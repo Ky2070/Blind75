@@ -25,4 +25,6 @@ add_executable(Leetcode main.cpp
         3Sum.h
         3Sum.cpp
         RemoveNthNodeFromEnd.h
-        RemoveNthNodeFromEnd.cpp)
+        RemoveNthNodeFromEnd.cpp
+        ValidParentheses.h
+        ValidParentheses.cpp)
