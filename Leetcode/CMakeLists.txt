@@ -27,4 +27,6 @@ add_executable(Leetcode main.cpp
         RemoveNthNodeFromEnd.h
         RemoveNthNodeFromEnd.cpp
         ValidParentheses.h
-        ValidParentheses.cpp)
+        ValidParentheses.cpp
+        MergeTwoSortedLists.h
+        MergeTwoSortedLists.cpp)
